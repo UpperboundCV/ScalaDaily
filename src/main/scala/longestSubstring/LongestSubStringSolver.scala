@@ -1,5 +1,5 @@
 package longestSubstring
-
+//Longest Substring Without Repeating Characters
 object LongestSubStringSolver {
   def isUnique(str: String): Boolean = {
     (0 to str.size - 1).forall { i =>
