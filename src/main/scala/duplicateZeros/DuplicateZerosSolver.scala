@@ -34,7 +34,7 @@ object DuplicateZerosSolver {
 
 }
 
-object Runner {
+object DuplicateZerossRunner {
   def main(args: Array[String]): Unit = {
     val input = Array(1, 0, 2, 3, 0, 4, 5, 0)
     println(duplicateZeros(input).mkString(","))
