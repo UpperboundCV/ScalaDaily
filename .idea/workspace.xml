@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a971a5-e22d-493a-b1a0-31b95521b12d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/longestSubstring/LongestSubStringHintSolver.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/longestSubstring/LongestSubStringSolver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/longestSubstring/LongestSubStringSolver.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/longestSubString/TestLongestSubStringSolver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/longestSubString/TestLongestSubStringSolver.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,21 +53,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="ScalaTest.TestLongestSubStringSolver.giant input">
-    <configuration name="TestLongestSubStringSolver" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="LeetCode" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLongestSubStringSolver.(2)lengthOfLongestSubstring returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+  <component name="RunManager" selected="ScalaTest.TestLongestSubStringSolver.(6)longestSubStringHintSolver returns maximum length of unique substring">
+    <configuration name="TestLongestSubStringSolver.(2)longestSubStringHintSolver returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="LeetCode" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -75,13 +62,13 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
-      <option name="testName" value="(2)lengthOfLongestSubstring returns maximum length of unique substring" />
+      <option name="testName" value="(2)longestSubStringHintSolver returns maximum length of unique substring" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLongestSubStringSolver.giant input" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="TestLongestSubStringSolver.(3)longestSubStringHintSolver returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="LeetCode" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -89,13 +76,13 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
-      <option name="testName" value="giant input" />
+      <option name="testName" value="(3)longestSubStringHintSolver returns maximum length of unique substring" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLongestSubStringSolver.lengthOfLongestSubstring returns 0 when it is empty string" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="TestLongestSubStringSolver.(4)longestSubStringHintSolver returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="LeetCode" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -103,13 +90,13 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
-      <option name="testName" value="lengthOfLongestSubstring returns 0 when it is empty string" />
+      <option name="testName" value="(4)longestSubStringHintSolver returns maximum length of unique substring" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLongestSubStringSolver.lengthOfLongestSubstring returns 1 when all characters in string are duplicated" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="TestLongestSubStringSolver.(5)longestSubStringHintSolver returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="LeetCode" />
       <option name="allowRunningInParallel" value="false" />
       <option name="selectedOptions">
@@ -117,26 +104,40 @@
       </option>
       <option name="testKind" value="Test name" />
       <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
-      <option name="testName" value="lengthOfLongestSubstring returns 1 when all characters in string are duplicated" />
+      <option name="testName" value="(5)longestSubStringHintSolver returns maximum length of unique substring" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLongestSubStringSolver.(6)longestSubStringHintSolver returns maximum length of unique substring" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="LeetCode" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="testClassPath" value="longestSubString.TestLongestSubStringSolver" />
+      <option name="testName" value="(6)longestSubStringHintSolver returns maximum length of unique substring" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="ScalaTest.TestLongestSubStringSolver.lengthOfLongestSubstring returns 1 when all characters in string are duplicated" />
-      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(2)lengthOfLongestSubstring returns maximum length of unique substring" />
-      <item itemvalue="ScalaTest.TestLongestSubStringSolver.lengthOfLongestSubstring returns 0 when it is empty string" />
-      <item itemvalue="ScalaTest.TestLongestSubStringSolver" />
-      <item itemvalue="ScalaTest.TestLongestSubStringSolver.giant input" />
+      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(3)longestSubStringHintSolver returns maximum length of unique substring" />
+      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(4)longestSubStringHintSolver returns maximum length of unique substring" />
+      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(5)longestSubStringHintSolver returns maximum length of unique substring" />
+      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(2)longestSubStringHintSolver returns maximum length of unique substring" />
+      <item itemvalue="ScalaTest.TestLongestSubStringSolver.(6)longestSubStringHintSolver returns maximum length of unique substring" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="ScalaTest.TestLongestSubStringSolver.giant input" />
-        <item itemvalue="ScalaTest.TestLongestSubStringSolver" />
-        <item itemvalue="ScalaTest.TestLongestSubStringSolver.lengthOfLongestSubstring returns 0 when it is empty string" />
-        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(2)lengthOfLongestSubstring returns maximum length of unique substring" />
-        <item itemvalue="ScalaTest.TestLongestSubStringSolver.lengthOfLongestSubstring returns 1 when all characters in string are duplicated" />
+        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(6)longestSubStringHintSolver returns maximum length of unique substring" />
+        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(5)longestSubStringHintSolver returns maximum length of unique substring" />
+        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(4)longestSubStringHintSolver returns maximum length of unique substring" />
+        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(3)longestSubStringHintSolver returns maximum length of unique substring" />
+        <item itemvalue="ScalaTest.TestLongestSubStringSolver.(2)longestSubStringHintSolver returns maximum length of unique substring" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +164,20 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/longestSubstring/LongestSubStringHintSolver.scala</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/longestSubstring/LongestSubStringHintSolver.scala</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
